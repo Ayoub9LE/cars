@@ -1,0 +1,56 @@
+.voiture-liste {
+    padding-top: 20px; /* Ajout d'un espace en haut */
+}
+
+.table-container {
+    margin-top: 50px; /* Espace supplémentaire depuis le haut */
+}
+
+.table-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent pour le fond de la table */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour la carte */
+}
+
+.table-header {
+    background-color: #212529; /* Arrière-plan sombre pour l'en-tête de la table */
+    color: #ffffff; /* Texte blanc pour l'en-tête */
+    text-align: center; /* Titre centré */
+    font-size: 24px; /* Taille du texte plus grande */
+    padding: 16px 0; /* Espacement supérieur et inférieur pour l'en-tête */
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table td, .table th {
+    vertical-align: middle; /* Centrer verticalement le contenu des cellules */
+}
+
+.btn-outline-primary {
+    color: #3498db; /* Couleur pour les boutons modifier */
+    border-color: #3498db;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3498db; /* Couleur de fond au survol */
+    color: #ffffff;
+}
+
+.btn-outline-danger {
+    color: #e74c3c; /* Couleur pour les boutons supprimer */
+    border-color: #e74c3c;
+}
+
+.btn-outline-danger:hover {
+    background-color: #e74c3c; /* Couleur de fond au survol */
+    color: #ffffff;
+}
+
+.card-footer {
+    background-color: #212529; /* Arrière-plan sombre pour le pied de page */
+    color: #ffffff; /* Texte blanc pour le pied de page */
+    text-align: center; /* Texte centré */
+    padding: 12px 0; /* Espacement supérieur et inférieur pour le pied de page */
+}
