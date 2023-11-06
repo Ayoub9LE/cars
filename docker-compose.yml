@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   springboot-app:
-    image: springbootproject
+    image: hanae1/springbootproject:tagname
     ports:
       - "8080:8080"
     environment:
@@ -18,6 +18,6 @@ services:
       - MYSQL_DATABASE=springboot
 
   react-frontend:
-    image: reactimage
+    image: hanae1/reactimage:latest
     ports:
       - "3000:3000"
